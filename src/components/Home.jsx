@@ -1,18 +1,13 @@
-import { useContext, useEffect } from "react";
-import { BsChevronDoubleDown } from "react-icons/bs";
-import ThemeContext from "../context/ThemeContext";
-import BlackStar from "../assets/black-star.svg";
-import WhiteStar from "../assets/white-star.svg";
-import Button from "./../shared/Button";
-
 import { gsap } from "gsap";
+import { useEffect } from "react";
+import { BsChevronDoubleDown } from "react-icons/bs";
+import Stroke from "/stroke.svg";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { FaCalendarDay } from "react-icons/fa";
 
 // gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
-	const { theme } = useContext(ThemeContext);
-
 	useEffect(() => {
 		// gsap.from(".hero", {
 		// 	opacity: 0,
@@ -40,25 +35,25 @@ function Home() {
 			id="home"
 			className="flex flex-col items-center justify-center h-svh"
 		>
-			<div className="w-full text-xl lg:pl-40 md:pb-10 sm:pb-10">
-				<div className="flex flex-col gap-8">
-					<div className="tracking-widest leading-tight text-[80px] md:text-[60px] sm:text-[35px] lg:w-3/4">
-						<h1 className="flex gap-10 md:gap-3 sm:gap-4 hero">
-							Full-Stack
-							<img
-								src={`${theme === "dark" ? WhiteStar : BlackStar}`}
-								alt=""
-								className="w-10 md:w-8 sm:w-8 animate-pulse"
-							/>
+			<div className="w-full text-xl md:pb-10 sm:pb-10">
+				<div className="flex flex-col items-center gap-8">
+					<div className="leading-tight text-[50px] md:text-[60px] sm:text-[35px] text-center">
+						<h1 className="">
+							<span className="hero">
+								Trusted websites that <br />
+							</span>
+							<span className="hero">
+								<span>converts</span>{" "}
+								<span className="text-textFade w-[330px] inline-block">
+									leads to clients
+									<img
+										src={Stroke}
+										alt=""
+									/>
+								</span>
+							</span>
 						</h1>
-						<h1 className="flex gap-32 md:gap-12 sm:gap-12 hero">
-							Developer{" "}
-							<img
-								src={`${theme === "dark" ? WhiteStar : BlackStar}`}
-								alt=""
-								className="w-10 md:w-8 sm:w-8 animate-pulse"
-							/>
-						</h1>
+						{/* <h1 className="flex gap-32 md:gap-12 sm:gap-12 hero">Developer</h1> */}
 					</div>
 					{/* <h1>Developer</h1> */}
 					<p className="lg:w-1/2 max-md:w-[73%] md:w-3/4 sm:w-full">
@@ -74,9 +69,9 @@ function Home() {
 					</p>
 					<a
 						href="mailto:safiyahmasud@gmail.com"
-						className="block mt-4 mb-6 w-fit lg:mb-0 max-md:mb-0"
+						className="bg-button px-5 py-2 rounded-full flex gap-2 items-center justify-center"
 					>
-						<Button>Get in touch</Button>
+						<FaCalendarDay /> Book a Call
 					</a>
 				</div>
 			</div>

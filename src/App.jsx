@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import {
 	createBrowserRouter,
 	createRoutesFromElements,
@@ -6,7 +5,7 @@ import {
 	Outlet,
 	RouterProvider,
 } from "react-router-dom";
-import ThemeContext, { ThemeProvider } from "./context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -50,14 +49,12 @@ function App() {
 }
 
 export const Root = () => {
-	const { theme } = useContext(ThemeContext);
-
 	return (
 		<main
 			className={`
-					${theme === "light" ? "bg-light text-dark" : "bg-dark text-light"} h-full pt-5`}
+					bg-bg text-white h-full`}
 		>
-			<div className="px-20 md:px-10 sm:px-5">
+			<div className="">
 				<Header />
 				<Outlet />
 			</div>

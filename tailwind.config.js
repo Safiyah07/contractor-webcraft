@@ -5,6 +5,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
+				bg: "linear-gradient(to right, #000000 18%, #1E263D 54%, #000000 86%)",
 				gradient:
 					"linear-gradient(to right, #0c0c0d 0%, #bdff68 25%, #0c0c0d 50%, #e066ff 75%, #0c0c0d 100%)",
 				"light-gradient":
@@ -15,6 +16,9 @@ export default {
 					"linear-gradient(142deg, rgba(255, 145, 77, 1) 0%, rgba(11, 18, 21, 0) 9%, rgba(11, 18, 21, 0) 52%, rgba(11, 18, 21, 0) 86%, rgba(255, 145, 77, 1) 100%)",
 			},
 			colors: {
+				button: "#3FC4F6",
+				blueNavBg: "#385D74",
+				textFade: "#E1D3CC",
 				dark: "#0b1215",
 				light: "#f8f8ff",
 				green: "#bdff68",
