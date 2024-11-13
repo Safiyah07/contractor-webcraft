@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "nanny",
+		"link": "https://nanny-9d0g.onrender.com/",
+		"mockup": ["/nanny-laptop.png", "/nanny-laptop.png", "/nanny-families.png"],
+		"gradient": "nanny",
+		"previewHeader": "Designed to bridge the gap between parents and nannies.",
+		"previewP": "I developed both the frontend and backend of a web app that simplifies the process of finding the right nanny. The platform offers intuitive search features and seamless functionality to connect parents with suitable nannies efficiently.",
+		"desc": "nanny finder project",
+		"role": "Full-stack developer",
+		"problem": "Finding a reliable and trustworthy nanny can be a daunting task for parents. Traditional methods often involve time-consuming searches and personal referrals, which may not always yield satisfactory results.",
+		"solution": "Streamline the process of finding a nanny by providing a user-friendly online platform.",
+		"features": [
+			{
+				"list": "Easy Registration: I implemented an intuitive registration system that allows parents and nannies to create profiles and sign up effortlessly."
+			},
+			{
+				"list": "Intuitive Dashboard: Both parents and nannies have access to a well-organized dashboard for managing their profiles, searching for matches, and communicating."
+			},
+			{
+				"list": "Filter Search: Parents can use advanced filters to search for nannies based on location."
+			},
+			{
+				"list": "Comprehensive Nanny Profiles: Nanny profiles include detailed information about their qualifications, experience and availability."
+			},
+			{
+				"list": "Backend APIs: I developed and integrated several APIs to handle the core functionalities, including user authentication, nanny profiles, and search queries."
+			},
+			{
+				"list": "MongoDB Database: The app uses MongoDB to store user and nanny data, ensuring that all information is securely handled and easily accessible, ensuring scalability and flexibility."
+			},
+			{
+				"list": "Special Needs Accommodation: The platform offers options for parents to add detailed information about their child's special needs, helping them find nannies with the appropriate skills and experience and nannies are well-informed and prepared."
+			}
+		],
+		"stack": [
+			{ "name": "Figma", "icon": "/figma.png" },
+			{ "name": "Tailwind CSS", "icon": "/tailwind.png" },
+			{ "name": "Mongo Db", "icon": "/mongodb.png" },
+			{ "name": "Express Js", "icon": "/express.png" },
+			{ "name": "React Js", "icon": "/reactjs.png" },
+			{ "name": "Node Js", "icon": "/node.png" },
+			{ "name": "Photopea", "icon": "/Photopea.png" }
+		],
+		"outro": "The app delivers both performance and aesthetics. This project reflects my focus on solving real-world problems by combining clean design with robust, scalable code to create a seamless user experience."
+	},
+	{
+		"id": 2,
+		"name": "hotdesk",
+		"link": "https://hot-desk-omega.vercel.app/",
+		"mockup": ["/hotdesk-logo.png", "/hotdesk-tab.png", "/hotdesk-desktop.png"],
+		"gradient": "hotdesk",
+		"previewHeader": "A Collaborative Workspace for Creative Minds.",
+		"previewP": "A workspace designed to empower creatives to connect, collaborate, and bring their visions to life.  As a freelance front-end developer, I had the privilege of contributing to this platform, crafting a user experience that fosters creativity and ignites collaboration.",
+		"desc": "hotdesk website",
+		"role": "Frontend developer",
+		"problem": " Creatives often struggle to find a physical and digital space that cater to their need for collaboration and creativity. Most workspaces are designed for solitary work, lacks flexibility, and fails to foster a sense of community.",
+		"solution": "Hot Desk tackles these challenges by creating a vibrant community for creatives. Here, individuals can connect, share expertise, and push each other's boundaries.",
+		"features": [
+			{
+				"list": "Dedicated Workspaces: Hot Desk offers a professional and inspiring environment to focus on individual projects."
+			},
+			{
+				"list": "Collaboration Tools: The platform facilitates seamless communication and idea exchange, fostering a collaborative workflow."
+			},
+			{
+				"list": "Resource Hub: Hot Desk provides access to industry-specific tools and resources, empowering creatives with the right equipment for success."
+			},
+			{
+				"list": "Community-Driven Environment: A hub for creatives to network, share projects, and support one another's work."
+			},
+			{
+				"list": "Modern and Intuitive UI: Designed to be visually appealing and easy to navigate for creatives of all backgrounds."
+			}
+		],
+		"stack": [
+			{ "name": "Tailwind CSS", "icon": "/tailwind.png" },
+			{ "name": "React Js", "icon": "/reactjs.png" }
+		],
+		"outro": "Creativity meets collaboration, providing a space where ideas can thrive and projects can come to life."
+	},
+	{
+		"id": 3,
+		"name": "gisthub",
+		"link": "https://gisthub-seven.vercel.app/",
+		"mockup": [
+			"/gisthub-laptop.png",
+			"/gisthub-laptop.png",
+			"/gisthub-tab.png"
+		],
+		"gradient": "gisthub",
+		"previewHeader": "Bridging the Information Gap Between AEDC, Water Board and Nigerian Citizens",
+		"previewP": "GistHub is a platform designed to address the communication gap between the Abuja Electricity Distribution Company (AEDC), the Water Board, and the citizens of Nigeria. Through a centralized blog, it ensures that citizens stay informed about electricity and water supply updates, scheduled maintenance, and other essential services.",
+		"desc": "gisthub blog",
+		"role": "Full-stack developer",
+		"problem": "Citizens in Nigeria often face a lack of timely and accurate information regarding electricity and water services. There is minimal communication from AEDC and the Water Board, leaving residents unaware of important updates, such as outages, scheduled maintenance, or water supply issues. This information gap creates confusion and frustration for those affected.",
+		"solution": "Creating a platform where citizens can access real-time updates from AEDC and the Water Board. The blog format allows users to stay informed about service interruptions, planned maintenance, and general updates. By streamlining communication, GistHub helps citizens stay prepared and informed, reducing the impact of unexpected outages and service disruptions.",
+		"features": [
+			{
+				"list": "Real-time Updates: Stay informed with the latest information from AEDC and the Water Board."
+			},
+			{
+				"list": "User-Friendly Blog Interface: Easy access to posts and updates, designed for clarity and efficiency."
+			},
+			{
+				"list": "Responsive Design: Fully functional across devices, ensuring accessibility for all users."
+			},
+			{
+				"list": "Content Management: Efficient content delivery powered by a robust CMS for quick and accurate updates."
+			}
+		],
+		"stack": [
+			{ "name": "Figma", "icon": "/figma.png" },
+			{ "name": "Tailwind", "icon": "/tailwind.png" },
+			{ "name": "React Js", "icon": "/reactjs.png" },
+			{ "name": "Next Js", "icon": "/next.png" },
+			{ "name": "Contentful", "icon": "/contentful.png" }
+		],
+		"outro": "GistHub creates an essential bridge between AEDC / Water board and Nigerian citizens, ensuring the public is well-informed about their electricity and water services. Through this platform, communication is streamlined, and the frustrations around power and water updates are significantly reduced."
+	}
+]
