@@ -19,6 +19,7 @@ export default {
 				button: "#3FC4F6",
 				blueNavBg: "#385D74",
 				textFade: "#E1D3CC",
+				chooseFade: "rgba(46, 46, 46, 0.33)",
 				dark: "#0b1215",
 				light: "#f8f8ff",
 				green: "#bdff68",

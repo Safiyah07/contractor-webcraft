@@ -1,33 +1,17 @@
 import PropTypes from "prop-types";
-import ThemeContext from "../context/ThemeContext";
-import { useContext } from "react";
 
-function Button({ children, className, ...props }) {
-	const { theme } = useContext(ThemeContext);
-
+function Button({ children }) {
 	return (
 		<div
-			className={`${
-				theme === "light"
-					? "bg-light-gradient shadow-light-3xl"
-					: "bg-gradient shadow-3xl"
-			} relative p-[2px] h-auto rounded-[20px] bg-gradient w-fit`}
+			className={`bg-button border-2 border-button transition-all ease-in-out duration-200 px-5 py-2 sm:px-3 sm:py-1 rounded-full hover:bg-transparent hover:border-button`}
 		>
-			<div
-				className={`${
-					theme === "light" ? "bg-light" : "bg-dark"
-				} h-full w-full bg-dark rounded-[18px] px-5 py-2 sm:pt-1 ${className}`}
-				{...props}
-			>
-				{children}
-			</div>
+			{children}
 		</div>
 	);
 }
 
 Button.propTypes = {
 	children: PropTypes.any,
-	className: PropTypes.any,
 };
 
 export default Button;
