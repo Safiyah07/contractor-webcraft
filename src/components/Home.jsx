@@ -42,7 +42,7 @@ function Home() {
 					For HVAC Companies
 				</p>
 				<div className="flex flex-col items-center gap-8">
-					<div className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
+					<div className="leading-tight text-[50px] md:text-[40px] sm:text-[25px] text-center">
 						<h1 className="text-textFade">
 							<span className="hero">
 								Trusted websites that <br />
@@ -54,7 +54,7 @@ function Home() {
 									<img
 										src={Stroke}
 										alt=""
-										className="w-[380px] md:w-[300px] sm:w-[230px]"
+										className="w-[380px] md:w-[300px] sm:w-[190px]"
 									/>
 								</span>
 							</span>
@@ -79,7 +79,7 @@ function Home() {
 					</Button>
 				</div>
 			</div>
-			<div className="w-[56%] max-md:w-2/3 pt-20 md:w-3/4 sm:w-3/4">
+			<div className="w-[56%] max-md:w-2/3 pt-20 md:w-3/4 sm:w-[88%]">
 				<img
 					src={Project}
 					alt=""

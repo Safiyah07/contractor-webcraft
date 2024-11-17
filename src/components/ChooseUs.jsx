@@ -13,7 +13,7 @@ function ChooseUs() {
 							<img
 								src={Stroke}
 								alt=""
-								className="w-[270px] md:w-[210px] sm:w-[110px]"
+								className="w-[270px] md:w-[210px] sm:w-[160px]"
 							/>
 						</span>
 					</span>
@@ -26,7 +26,7 @@ function ChooseUs() {
 			</div>
 			<div>
 				{/* lg screen */}
-				<div className="flex gap-10 px-10 pt-5 text-base shadow-md sm:hidden md:pr-0 bg-chooseFade rounded-2xl">
+				<div className="flex gap-10 px-10 pt-5 text-base shadow-md sm:hidden md:hidden bg-chooseFade rounded-2xl">
 					<div>
 						<ul className="flex flex-col py-10 gap-7">
 							<li className="mb-1">Offers</li>
@@ -56,7 +56,7 @@ function ChooseUs() {
 						</ul>
 					</div>
 					<div>
-						<ul className="flex flex-col items-center px-3 py-10 gap-7 text-white/50 md:hidden sm:hidden">
+						<ul className="flex flex-col items-center px-3 py-10 gap-7 text-white/50">
 							<li className="mb-1">Others</li>
 							<li>3-5 Days</li>
 							<li>2-3 Months</li>
@@ -68,7 +68,7 @@ function ChooseUs() {
 					</div>
 				</div>
 				{/* sm screen */}
-				<div className="flex-col w-[70svw] text-center bg-chooseFade rounded-xl hidden gap-3 p-5 sm:flex choose-table">
+				<div className="flex-col w-[88svw] text-center bg-chooseFade rounded-xl hidden gap-3 p-5 md:flex sm:flex choose-table">
 					<p>Fast Suppost Response</p>
 					<p>Within 24 hours ⚡</p>
 					<p>Turnaround Time</p>

@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				bg: "linear-gradient(to right, #000000 18%, #1E263D 54%, #000000 86%)",
+				bg: "linear-gradient(to right, #000000 18%, #1E263D 50%, #000000 86%)",
 				gradient:
 					"linear-gradient(to right, #0c0c0d 0%, #bdff68 25%, #0c0c0d 50%, #e066ff 75%, #0c0c0d 100%)",
 				"light-gradient":
